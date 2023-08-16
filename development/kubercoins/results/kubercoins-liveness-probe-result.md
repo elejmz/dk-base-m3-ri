@@ -34,12 +34,12 @@ Comandos
             port: 80
           initialDelaySeconds: 30
           periodSeconds: 5
-  - kubectl apply -f .
-  - kubectl get svc rng
-  - kubectl get events -w
-  - httping 10.105.58.67
-  - kubectl get pods -w
-  - ab -c 10 -n 1000 http://<ClusterIP>/1
+- kubectl apply -f .
+- kubectl get svc rng
+- kubectl get events -w
+- httping 10.105.58.67
+- kubectl get pods -w
+- ab -c 10 -n 1000 http://<ClusterIP>/1
 
 Recursos externos
 - service/webui    NodePort    10.103.244.85   <none>        80:31976/TCP   27m
