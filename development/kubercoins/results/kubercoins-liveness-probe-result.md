@@ -28,7 +28,7 @@ Comandos
 - git clone https://github.com/jpetazzo/kubercoins
 - cd kubercoins
 - vim rng-deployment.yaml
-  livenessProbe:
+- Agregar: livenessProbe:
           httpGet:
             path: /
             port: 80
