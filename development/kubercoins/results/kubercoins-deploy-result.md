@@ -30,7 +30,7 @@ git clone https://github.com/jpetazzo/container.training
 -  kubectl patch svc webui -p '{"spec": {"externalIPs": ["34.220.24.105"]}}'
 
 Recursos externos
-- externalIP 34.220.24.105
+- Aprovisionamiento del puerto para acceder a la URL http://34.220.24.105:30102/index.html
 
 Artifactos
 - Anexar artifactos al directorio de respuesta
