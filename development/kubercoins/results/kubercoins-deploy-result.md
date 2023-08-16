@@ -24,8 +24,8 @@ git clone https://github.com/jpetazzo/container.training
 -  kubectl apply -f ~/container.training/k8s/dockercoins.yaml
 -  kubectl logs deploy/worker
 -  kubectl logs deploy/hasher
--  kubectl get svc webui 
-curl 10.111.52.148
+-  kubectl get svc webui
+-  curl 10.111.52.148
 -  kubectl get svc webui -o wide
 -  kubectl patch svc webui -p '{"spec": {"externalIPs": ["34.220.24.105"]}}'
 
